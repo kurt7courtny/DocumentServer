@@ -1,5 +1,110 @@
 # Change log
 
+## 6.1.0
+
+### New Features
+
+#### All Editors
+
+* Complete redone html-based formats (`ePub`, `mht`, `html`)
+* `fb2` format can be opened in viewer
+* Redone gradient control and ability to set custom angle for gradient fill
+* New icons in context menu
+* Add support of AutoFormat as you type
+* Apply button in File menu always visible
+* Ability to copy comment from left sidebar
+
+#### Document Editor
+
+* Ability to show line numbering
+* Ability to add cross-reference
+* Add support of endnotes
+* Ability to edit AutoCorrect list
+* Add ability to set review permissions by groups
+* Select Data button in Chart Editor
+
+#### Spreadsheet Editor
+
+* Ability to work with sheet view (available only for paid version)
+* Support of editing data ranges in Chart
+* Redone cell editor height change
+* New cursor for column\row hover
+* Ability to hide freeze pane shadow
+* Pivot Table can be inserted from `Insert` tab
+
+#### Plugins
+
+* Translate plugin uses Google Translate, instead of Yandex
+* Add ability to add help to plugin
+
+#### Embedded Viewer
+
+* Print button in Embedded viewer
+* Removed deprecated Google+ share
+
+### Fixes
+
+* All components received countless fixes
+
+#### Back-end
+
+* `ttf-mscorefonts-installer` is now optional dependency.
+
+## 6.0.2
+
+### New Features
+
+#### Integration Example
+
+* Integration example now included in open-source version
+
+### Fixes
+
+#### All Editors
+
+* Fix problem with insert BMP image in doc (Bug #47276)
+
+#### Installation
+
+* Fix problem with DB clean
+  (`onlyoffice-documentserver.postinst: 124: [: false: unexpected operator`)
+  ([DocumentServer#1043](https://github.com/ONLYOFFICE/DocumentServer/issues/1043))
+
+#### Back end
+
+* Fix some issue with PostgreSQL before 9.5 (bug #45406)
+
+## 6.0.1
+
+### Fixes
+
+#### All Editors
+
+* Actualize Help
+
+#### Document Editor
+
+* Fix losing comments added to docx (Bug #46770)
+
+#### Spreadsheet Editor
+
+* Fix pivot refresh in R1C1 (Bug #46052)
+
+#### Convert
+
+* Fix error while opening specific xls (Bug #46728)
+
+#### Back-end
+
+* Fix several vulnerabilities
+* Fix Path Traversal vulnerability via `download as` params
+* Fix ER_DATA_TOO_LONG: Data too long for column 'callback' at row 1
+* Fix problem with generating new presentation theme (Bug #46754)
+
+#### Installation
+
+* Fix cluster mode setup
+
 ## 6.0.0
 
 ### New Features
@@ -10,7 +115,7 @@
 * Ability to insert special characters
 * Autorun settings for macros
 * Selecting an image from storage for watermarks, shapes and slides filling
-* Added an autocorrection list
+* Added an AutoCorrect list
 * Redesign of color selection component
 * Ability to change a position and size of chart elements
 * Hotkey Ctrl + 0 for zoom resetting

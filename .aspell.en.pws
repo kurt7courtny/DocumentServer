@@ -16,12 +16,13 @@ ashx
 aspose
 Aspose
 autocomplete
-autocorrection
+AutoCorrect
 autofill
 autofilter
 autofilters
 autofit
 Autofit
+AutoFormat
 Autorun
 autostart
 AVERAGEA
@@ -40,6 +41,7 @@ BITRSHIFT
 BITXOR
 blockcontent
 blocklevelstd
+BMP
 boolean
 brower
 bugfix
@@ -139,6 +141,7 @@ Ec
 ECMA
 ee
 endDate
+endnotes
 ePub
 EQ
 ERFC
@@ -146,6 +149,7 @@ Español
 ETS
 EXC
 EXPON
+fb
 FDIST
 FI
 fillForms
@@ -266,8 +270,10 @@ metafile
 México
 MINIFS
 minishift
+mht
 MoveCursorToEnd
 MoveCursorToStart
+mscorefonts
 MULT
 multi
 multichart
@@ -334,6 +340,7 @@ placholder
 Pluging
 PostgreSql
 PostgreSQL
+postinst
 postinstall
 postrm
 POTX
